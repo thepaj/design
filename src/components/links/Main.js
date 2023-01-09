@@ -4,9 +4,9 @@ function Main() {
     return (
       <div className="main">
         <div className="main-text-container">
-            <h1 className="main-title">
+            <div className="main-title">
                 Deena Design
-            </h1>
+            </div>
             <div className="main-desc">
                 <p>
                     Jsme architektonické studio a projekční kancelář s vlastní stavební firmou. Naši architekti, projektanti a odborníci na realizaci staveb se vám budou věnovat v Praze, Ostravě, Brně a Olomouci.

@@ -8,8 +8,7 @@ function Navigation() {
         <Link to='/portfolio' className='nav-link'>Portfolio</Link>
         <Link to='/references' className='nav-link'>Reference</Link>
         <Link to='/about' className='nav-link'>O nas</Link>
-        <Link to='/contact' className='nav-link'>Kontact</Link>
-        <Link to='/meeting' className='nav-link-meeting'>Sjednat schuzku</Link>
+        <Link to='/contact' className='nav-link-meeting'>Sjednat schuzku</Link>
       </div>
     );
 }

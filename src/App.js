@@ -1,7 +1,6 @@
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 import About from "./components/links/About";
-import Contact from "./components/links/Contact";
 import Portfolio from "./components/links/Portfolio";
 import References from "./components/links/References";
 import Services from "./components/links/Services";
@@ -12,6 +11,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import Contact from "./components/links/Contact";
 
 function App() {
   return (
