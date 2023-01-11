@@ -318,7 +318,7 @@ input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
 /* on hover placeholder */
 
 input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
-  color: #e2dedb;
+  color: #3d514d;
   font-size: 0.875em;
 }
 
@@ -327,7 +327,7 @@ input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-inpu
 }
 
 input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
-  color: #e2dedb;
+  color: #3d514d;
   font-size: 0.875em;
 }
 
@@ -336,7 +336,7 @@ input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
 }
 
 input:hover::placeholder, textarea:hover::placeholder {
-  color: #e2dedb;
+  color: #3d514d;
   font-size: 0.875em;
 }
 
@@ -345,12 +345,35 @@ input:hover:focus::placeholder, textarea:hover:focus::placeholder {
 }
 
 input:hover::placeholder, textarea:hover::placeholder {
-  color: #e2dedb;
+  color: #3d514d;
   font-size: 0.875em;
 }
 
 input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
   color: #cbc6c1;
+}
+
+.contact {
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.5)
+  ), url("../images/plan.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  color: #F5F5F5;
+}
+
+.form-container {
+  background-color: #3d514d;
+  padding: 20px 30px 50px 50px;
+  box-shadow:0 5px 20px rgba(0,0,0,0.5);
 }
 
 header {
@@ -389,7 +412,7 @@ input {
 
 input:hover {
   background: #F5F5F5;
-  color: #e2dedb;
+  color: #3d514d;
 }
 
 textarea {
@@ -420,7 +443,7 @@ textarea:hover {
 }
 
 #submit {
-  width: 502px;
+  width: 470px;
   
   padding: 0;
   margin: -5px 0px 0px 0px;
@@ -437,7 +460,7 @@ textarea:hover {
 }
 
 #submit:hover {
-  color: #e2dedb;
+  color: #3d514d;
 }
 
 /* ABOUT */
