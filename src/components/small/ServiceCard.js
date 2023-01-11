@@ -12,9 +12,9 @@ function ServiceCard(props) {
             <div class="face face2">
                 <div class="content">
                     <h3>
-                      {props.title}
+                      Co vam nabizime
                     </h3>
-                    <p>{props.description}</p>
+                    <p classname="card-paragraph">{props.description}</p>
                     <Link to='/contact'>
                       <button className='card-btn'>Napiste nam</button>
                     </Link>

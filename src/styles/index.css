@@ -240,7 +240,7 @@ i {
 }
 
 .card-btn {
-  margin: 15px 0 0;
+  margin: 20px 0 0;
   display:  inline-block;
   text-decoration: none;
   text-transform: uppercase;
@@ -254,6 +254,22 @@ i {
 
 .card-btn:hover {
   background-color: #d5dfdd;
+}
+
+.card-title {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card-paragraph {
+  text-align: justify;
+}
+
+.card-paragraph:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
 }
 
 /* CONTACT */
