@@ -1,3 +1,5 @@
+//import { SMTPClient } from 'emailjs';
+
 function Contact() {
     return (
       <div className="contact">
